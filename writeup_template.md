@@ -1,21 +1,23 @@
 # **Finding Lane Lines on the Road** 
-
-## Writeup Template
-
-### You can use this file as a template for your writeup if you want to submit it as a markdown file. But feel free to use some other method and submit a pdf if you prefer.
-
 ---
 
-**Finding Lane Lines on the Road**
-
 The goals / steps of this project are the following:
-* Make a pipeline that finds lane lines on the road
+* Make a pipeline that finds lane lines on the road:
+    - Applying on what I learned from the lesson, the arrangement of the functions, and the parameters' tunning.
+    - Edit the output of the hough lines to form TWO Red Lines roughly representing the Two lane lines.
+    - Test On 6 images.
+    - Test on 2 videos.
 * Reflect on your work in a written report
 
 
 [//]: # (Image References)
 
-[image1]: ./examples/grayscale.jpg "Grayscale"
+[image1]: ./test_images_output/solidWhiteRight.jpg "SolidWhiteRight"
+[image2]: ./test_images_output/whiteCarLaneSwitch.jpg "whiteCarLaneSwitch"
+[image3]: ./test_images_output/solidYellowLeft.jpg "solidYellowLeft"
+[image4]: ./test_images_output/solidYellowCurve2.jpg "solidYellowCurve2"
+[image5]: ./test_images_output/solidWhiteCurve.jpg "solidWhiteCurve"
+[image6]: ./test_images_output/solidYellowCurve.jpg "solidYellowCurve"
 
 ---
 
@@ -30,6 +32,11 @@ In order to draw a single line on the left and right lanes, I modified the draw_
 If you'd like to include images to show how the pipeline works, here is how to include an image: 
 
 ![alt text][image1]
+![alt text][image2]
+![alt text][image3]
+![alt text][image4]
+![alt text][image5]
+![alt text][image6]
 
 
 ### 2. Identify potential shortcomings with your current pipeline
