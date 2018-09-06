@@ -61,5 +61,5 @@ Here are the test images output:
 
 ### 3. Suggest possible improvements to your pipeline
 
-- Give it a range of slopes to accept it only.
+- Give it a range of slopes to accept it only./ Get rid of the shadows first or use the property of lane lines of being yellow/white  (very bright).
 - At some situations like the turning or the hill examples we will need to draw curves instead of lines (I think).
